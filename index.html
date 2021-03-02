@@ -6,6 +6,12 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <!-- 1) Load D3.js and billboard.js separately -->
+    <!-- Load D3 -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/2.2.3/billboard.min.js"></script>
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -44,35 +50,44 @@
           </div>
         </div>
       </div>
+      
+    </div>
+    <div class="page">
       <div id="skills">
-         <div id="skillTitle">Skills</div>
+        <div id="skillTitle">Skills</div>
+        <div>
          <div>
-          <div>
-            <img src="js.png"></img>
-            <div>Javascript</div>
-         </div>
-         <div>
-           <div>
-             <img src="html5.png"></img>
-             <img src="css.png"></img>
-           </div>
-            <div>HTML,CSS</div>
-         </div>
-         <div>
-            <img src="java.png"></img>
-            <div>Java</div>
-         </div>
-         <div>
-            <img src="golang.png"></img>
-            <div>Golang</div>
-         </div>
+           <img src="js.png"></img>
+           <div>Javascript</div>
         </div>
-         
-         <div></div>
-      </div>
-    
+        <div>
+          <div>
+            <img src="html5.png"></img>
+            <img src="css.png"></img>
+          </div>
+           <div>HTML,CSS</div>
+        </div>
+        <div>
+           <img src="java.png"></img>
+           <div>Java</div>
+        </div>
+        <div>
+           <img src="golang.png"></img>
+           <div>Golang</div>
+        </div>
+       </div>
+      
+       <div id="charts">
+         <div id="chart"></div>
+         <div id="multilineLabel"></div>
+         <!-- <div id="chart"></div> -->
+       </div>
+
+     </div>
+   
     </div>
   <div>
+    <script type="module" src="app.js"></script>
 </body>
 <!-- partial -->
   

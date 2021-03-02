@@ -1,6 +1,24 @@
+html{
+  width: 100%;
+  height: 100%;  
+}
+body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .background{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#career{
+  width: 100%;
+  /* height: 100%; */
+  /* padding-bottom: 10em; */
 }
 
 a{
@@ -15,7 +33,7 @@ a:hover{
   color: red;
   /* background-color: black; */
   width:100%;
-  height:100vw;
+  height:100%;
 }
 
 .page:nth-child(1) {
@@ -25,7 +43,7 @@ a:hover{
 .page:nth-child(2){
   color: blue;
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-  height: 100vw;
+  height: 100%;
 }
 
 #written {
@@ -76,8 +94,12 @@ body::-webkit-scrollbar {
   padding-top: 5%;
   padding-left: 5%; 
   color: white; 
-  font-size: 50px;
+  font-size: 30px;
   padding-bottom: 7%;
+}
+
+#skills{
+  background-color: #3f87a6;
 }
 
 #careerTitle {
@@ -90,12 +112,18 @@ body::-webkit-scrollbar {
 
 #careerdetail{
   display: flex;
+  width: 100%;
+  /* height: 100%; */
+  /* padding-bottom: 100px; */
 }
 
 #careerdetail > *{
+  
+  width: 100%;
+  /* height: 100%; */
   margin-top: 5%;
   margin-left: 9%;
-  margin-bottom: 3%;
+  /* margin-bottom: 3%; */
 }
 
 #careerdetail > img:first-child
@@ -103,8 +131,8 @@ body::-webkit-scrollbar {
   margin-right: 5%;
   padding-right: 10px;
   background-color:white;
-  width: 30%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
   object-fit: fill;
   border-radius: 5%;
 }
@@ -117,7 +145,7 @@ body::-webkit-scrollbar {
   width: 30%;
   object-fit: fill;
   border-radius: 5%; */
-  margin-bottom: 8%;
+  margin-bottom: 5%;
   font-size: 25px;
   
 }
@@ -129,9 +157,6 @@ body::-webkit-scrollbar {
   border-radius: 50%;
 }
 
-#skills > *{
-  margin-top: 3%;
-}
 
 #sns > *{
   margin-left: 10%;
@@ -141,3 +166,8 @@ body::-webkit-scrollbar {
   margin-left: 7%;
 }
 
+#charts{
+  display: flex;
+  /* flex-direction: ; */
+  height: 500px;
+}
