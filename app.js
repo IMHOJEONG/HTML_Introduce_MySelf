@@ -36,6 +36,9 @@ class App{
             },
             bindto: "#multilineLabel"
         })
+
+        let audio = document.getElementById("myaudio");
+        audio.volume = 0.2;
     }
 }
 
